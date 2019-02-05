@@ -4,7 +4,13 @@ create a container for the State capital
 
 */
 
-let score = 0
+let states = [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", 
+    "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", 
+    "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas",
+    "Kentucky", "Louisiana", "" ]
+
+
 let correct = document.querySelector(".correct")
 
 /*
