@@ -36,11 +36,27 @@ let states = {
     "Nevada" : "Carson City", 
     "New Hampshire" : "Concord", 
     "New Jersey" : "Trenton", 
-    "New Mexico" : "",
-    "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
-    "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
-    "Tennessee", "Texas", "Utah", "	Vermont", "	Virginia", "Washington",
-    "West Virginia", "Wisconsin", "Wyoming", "District of Columbia"
+    "New Mexico" : "Santa Fe",
+    "New York" : "Albany", 
+    "North Carolina" : "Raleigh", 
+    "North Dakota": "Bismarck", 
+    "Ohio" : "Columbus", 
+    "Oklahoma" : "Oklahoma City", 
+    "Oregon" : "Salem",
+    "Pennsylvania" : "Harrisburg", 
+    "Rhode Island", 
+    "South Carolina", 
+    "South Dakota",
+    "Tennessee", 
+    "Texas", 
+    "Utah", 
+    "Vermont", 
+    "Virginia", 
+    "Washington",
+    "West Virginia", 
+    "Wisconsin", 
+    "Wyoming", 
+    "District of Columbia"
 }
 
 
