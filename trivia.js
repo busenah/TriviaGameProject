@@ -1,6 +1,7 @@
 /*  
 create a container for the Question 
-create a container for the State capital
+create a container for State
+create a container for the capital
 
 */
 
