@@ -12,14 +12,12 @@ If answer is correct, score and console.log("Excellent. You can move to the next
 If not correct, do not score and console.log("Sorry you failed. 
 You can choose to try again or move to the next question")
 
-
-
 */
 
 correct.addEventListener('click', () => {
   score++
 
   if (score  {
-    scoreEl.innerText = score
+    score.innerText = score
   } else {
-    declareWinner()
+    declareScore()
