@@ -44,19 +44,19 @@ let states = {
     "Oklahoma" : "Oklahoma City", 
     "Oregon" : "Salem",
     "Pennsylvania" : "Harrisburg", 
-    "Rhode Island", 
-    "South Carolina", 
-    "South Dakota",
-    "Tennessee", 
-    "Texas", 
-    "Utah", 
-    "Vermont", 
-    "Virginia", 
-    "Washington",
-    "West Virginia", 
-    "Wisconsin", 
-    "Wyoming", 
-    "District of Columbia"
+    "Rhode Island" : "	Providence", 
+    "South Carolina" : "Columbia", 
+    "South Dakota" : "Pierre",
+    "Tennessee" : "Nashville", 
+    "Texas" : "Austin", 
+    "Utah" : "Salt Lake City", 
+    "Vermont" : "Montpelier", 
+    "Virginia" : "Richmond", 
+    "Washington" : "Olympia",
+    "West Virginia" : "Charleston", 
+    "Wisconsin" : "Madison", 
+    "Wyoming" : "Cheyenne", 
+    "District of Columbia" : "Washington DC"
 }
 
 
