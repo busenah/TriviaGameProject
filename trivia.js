@@ -1,11 +1,12 @@
 /*  
-create a container for the Question 
-create a container for State and their capitals
+create a variable for the the questions
+create a variable for answers
+create a variable for State and their capitals
 create a container for inputting the capital
 
 */
 
-var question = [];
+var question = [0];
 
 var answer = ["state"];
 
@@ -68,17 +69,21 @@ let statesAndTheirCapitals = [
 
 ]
 
-
-
 /*
 - If answer is correct, display cumulative score, and 
 display alert ("Hurray! You got it! Please move to the next question")
+
+
 
 else
 
 add a (zero) 0 score and 
 display alert ("Sorry! Please try again, or move to the next question")
 
+then click to either the back or next button
+
+
+* alert syntax:      alert(" ");
 
     
 */
