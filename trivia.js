@@ -65,9 +65,13 @@ let statesAndTheirCapitals = [
 
 
 /*
-- If answer is correct, score and console.log("Excellent. You can move to the next question")
-- If not correct, do not score and console.log("Sorry you failed. 
-    Please try again or move to the next question")
+- If answer is correct, score and 
+console.log("Hurray! You got it! Please move to the next question")
+
+- If not correct, do not score and 
+console.log("Sorry! Please try again, or move to the next question")
+
+
     
 */
 
@@ -85,3 +89,7 @@ correct.addEventListener('click', () => {
         score.innerText = score
     } else {
         declareScore()
+    
+    }
+    
+

@@ -59,12 +59,6 @@ color: black;
 margin-bottom: 10px;
 }
 
-.alert-wrong {
-padding: 20px;
-background-color: white;
-color: black;
-margin-bottom: 10px;
-}
 
   /* courtesy of W3Schools.com */
 .closebtn {
@@ -89,6 +83,16 @@ border: 1px;
 box-sizing: border-box;
         
 }
+
+.score-box {
+background: wheat;
+text-align: left;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+            
+}
+
 
 .back-button {
 background: blue;
