@@ -18,7 +18,7 @@ box-sizing: border-box;
 
 .question {
 background: wheat;
-text-align: center;
+text-align: left;
 font-family: sans-serif;
 border: 1px;
 box-sizing: border-box;
@@ -27,32 +27,74 @@ box-sizing: border-box;
 
 .answer-input {
 background: wheat;
-text-align: center;
+text-align: left;
 font-family: sans-serif;
 border: 1px;
 box-sizing: border-box;
     
 }
 
-.alert {
-    padding: 20px;
-    background-color: white;
-    color: black;
-    margin-bottom: 10px;
-  }
-  
-  /* courtesy of W3Schools.com */
-  .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: 100;
-    font-size: 22px;
-    line-height: 0ch;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .closebtn:hover {
-    color: black;
-  }
+.correct-answer {
+background: wheat;
+text-align: left;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+        
+    }
 
+.alert-correct {
+padding: 20px;
+background-color: white;
+color: black;
+margin-bottom: 10px;
+}
+
+.alert-wrong {
+padding: 20px;
+background-color: white;
+color: black;
+margin-bottom: 10px;
+}
+
+  /* courtesy of W3Schools.com */
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: 100;
+font-size: 22px;
+line-height: 0ch;
+cursor: pointer;
+transition: 0.3s;
+}
+  
+.closebtn:hover {
+color: black;
+}
+
+.score-box {
+background: wheat;
+text-align: left;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+        
+}
+
+.back-button {
+background: blue;
+text-align: left;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+            
+}
+
+.next-button {
+background: white;
+text-align: left;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+                
+}

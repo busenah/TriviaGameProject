@@ -10,17 +10,40 @@
 </head>
 <body>
     <h1>How Well Do You Know America?</h1>
-    <div class="main">
-        <div class="question"></div>
-        <div class="answer-input"></div>
-        <!-- <div class="auto-response"></div> -->
-        <!-- <div class="alert"></div> -->
-        <!-- <div class="score-box"></div> -->
-        <!-- <div class="back-button"></div> -->
-        <!-- <div class="next-button"></div> -->
+    <div class="main"></div>
 
-    </div>
-    
+        <div class="question">
+            <p>Your Question is: What is the capital of ${state}?</p>
+        </div>
+
+        <div class="answer-input">
+            <p>Your Answer is:</p>
+        </div>
+
+        <div class="correct-answer">
+            <p>The capital of ${state} is: ${capital}. </p>
+            <!-- if answer is correct -->
+        </div>
+        
+        <div class="alert-correct">
+            <p>Hurray! You got it! Please move to the next question</p>
+                <!-- <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  -->
+                <!-- This is an alert box. -->
+        </div>
+
+        <div class="alert-wrong">
+                <p>Sorry! Please try again, or move to the next question</p>
+        </div>
+
+        <div class="total-score-box">
+            <p>Your Score is: </p>
+        </div>
+        <div class="back-button">
+
+        </div>
+        <div class="next-button">
+            <img src="https://thenounproject.com/term/arrows/14393/">
+        </div>  
 </body>
 <script src="trivia.js"></script>
 </html>
