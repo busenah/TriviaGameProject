@@ -2,6 +2,7 @@
 background: green;
 text-align: center;
 border: 1px;
+font-family: sans-serif;
 box-sizing: border-box;
 
 }
@@ -9,8 +10,28 @@ box-sizing: border-box;
 body {
 background: orange;
 text-align: center;
+font-family: sans-serif;
 border: 1px;
 box-sizing: border-box;
 
 }
+
+.question {
+background: wheat;
+text-align: center;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+
+}
+
+.answer-input {
+background: wheat;
+text-align: center;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+    
+}
+
 
