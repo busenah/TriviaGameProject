@@ -13,9 +13,9 @@ statesAndTheirCapitals[0].state
 statesAndTheirCapitals[0].capital
 
 let statesAndTheirCapitals = [
-    { state: "Alabama", capital: "Montgomery" },
-    { state: "Alaska", capital: "Juneau" },
-    { state: "Arizona", capital: "Phoenix" },
+    { state: "Alabama", capital: "Montgomery"},
+    { state: "Alaska", capital: "Juneau"},
+    { state: "Arizona", capital: "Phoenix"},
     { state: "Arkansas", capital: "Little Rock"},
     { state: "California", capital: "Sacramento"},
     { state: "Colorado", capital: "Denver"},
