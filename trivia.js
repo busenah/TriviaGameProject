@@ -71,12 +71,27 @@ let grabQuestion = document.querySelector('#state')
 grabQuestion.innerHTML = "submit"
 console.log(grabQuestion);
 
+let answer = document.querySelector('#capital')
+answer.innerHTML = "submit"
+console.log(grabQuestion);
+
 const button = document.querySelector('.js-button')
 
 submit.addEventListener('click', function () {
     // score = score + 1
     alert("You have submitted an answer!")
 })
+
+
+
+
+
+/*
+nextQuestion: function() {
+
+}
+
+*/
 
 /*
 - If answer is correct, display score, and 
