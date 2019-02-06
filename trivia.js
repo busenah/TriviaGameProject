@@ -5,6 +5,12 @@ create a container for inputting the capital
 
 */
 
+var question = [];
+
+var answer = ["state"];
+
+
+
 
 
 let statesAndTheirCapitals = [
@@ -65,11 +71,13 @@ let statesAndTheirCapitals = [
 
 
 /*
-- If answer is correct, score and 
-console.log("Hurray! You got it! Please move to the next question")
+- If answer is correct, display cumulative score, and 
+display alert ("Hurray! You got it! Please move to the next question")
 
-- If not correct, do not score and 
-console.log("Sorry! Please try again, or move to the next question")
+else
+
+add a (zero) 0 score and 
+display alert ("Sorry! Please try again, or move to the next question")
 
 
     
