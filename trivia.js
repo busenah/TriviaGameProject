@@ -73,7 +73,7 @@ console.log(grabQuestion);
 
 let answer = document.querySelector('#capital')
 answer.innerHTML = "submit"
-console.log(grabQuestion);
+console.log(answer);
 
 const button = document.querySelector('.js-button')
 
