@@ -7,6 +7,15 @@ box-sizing: border-box;
 
 }
 
+h1 {
+background: orange;
+text-align: center;
+font-family: sans-serif;
+border: 1px;
+box-sizing: border-box;
+    
+    }
+
 body {
 background: orange;
 text-align: center;
@@ -72,7 +81,7 @@ transition: 0.3s;
 color: black;
 }
 
-.score-box {
+.total-score-box {
 background: wheat;
 text-align: left;
 font-family: sans-serif;

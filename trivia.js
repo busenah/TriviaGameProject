@@ -5,7 +5,7 @@ create a container for inputting the capital
 
 */
 
-/*
+
 
 let statesAndTheirCapitals = [
     state: "Alabama", capital: "Montgomery",
@@ -62,7 +62,7 @@ let statesAndTheirCapitals = [
 
 ]
 
-*/
+
 
 /*
 - If answer is correct, score and console.log("Excellent. You can move to the next question")

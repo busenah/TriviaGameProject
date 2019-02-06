@@ -9,6 +9,13 @@
 
 </head>
 <body>
+    <article>
+        <header>
+            <h5>Leo's Cool Trivia Game</h1>
+        </header>
+        
+    </article>
+
     <h1>How Well Do You Know America?</h1>
     <div class="main"></div>
 
@@ -17,22 +24,26 @@
         </div>
 
         <div class="answer-input">
-            <p>Your Answer is:</p>
-        </div>
-
-        <div class="correct-answer">
-            <p>The capital of ${state} is: ${capital}. </p>
-            <!-- if answer is correct -->
-        </div>
         
-        <div class="alert-correct">
-            <p>Hurray! You got it! Please move to the next question</p>
-                <!-- <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  -->
-                <!-- This is an alert box. -->
+                Your answer is: <input type="text" name="fname"><br>
+                
+                <input type="submit" value="Submit">
+              
         </div>
-
-        <div class="alert-wrong">
-                <p>Sorry! Please try again, or move to the next question</p>
+        <div class="parent">
+            <div class="correct-answer">
+                <p>The capital of ${state} is: ${capital}. </p>
+            </div>
+            
+            <div class="alert-correct">
+                <p>Hurray! You got it! Please move to the next question</p>
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    
+            </div>
+    
+            <div class="alert-wrong">
+                    <p>Sorry! Please try again, or move to the next question</p>
+            </div>
         </div>
 
         <div class="total-score-box">
@@ -44,6 +55,6 @@
         <div class="next-button">
             <img src="https://thenounproject.com/term/arrows/14393/">
         </div>  
+        <script src="trivia.js"></script>
 </body>
-<script src="trivia.js"></script>
 </html>
