@@ -6,13 +6,9 @@ create a container for inputting the capital
 
 */
 
-var question = [0];
+let question = [0];
 
-var answer = ["state"];
-
-
-
-
+let answer = ["state"];
 
 let statesAndTheirCapitals = [
     state: "Alabama", capital: "Montgomery",
@@ -69,10 +65,13 @@ let statesAndTheirCapitals = [
 
 ]
 
+let grabQuestion = document.querySelector('#question')
+console.log(grabQuestion)
+
 /*
 - If answer is correct, display cumulative score, and 
 display alert ("Hurray! You got it! Please move to the next question")
-
+if $("capital")
 
 
 else
