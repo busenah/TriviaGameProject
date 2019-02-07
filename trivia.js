@@ -12,7 +12,10 @@ statesAndTheirCapitals[0].capital
 */
 
 let statesAndTheirCapitals = [
-                                                                                                                                                                                                                                                                               
+                                                                 
+    { state: "Alabama", capital: "Montgomery" },
+    { state: "Alaska", capital: "Juneau" },
+    { state: "Arizona", capital: "Phoenix" },
     { state: "Arkansas", capital: "Little Rock" },
     { state: "California", capital: "Sacramento" },
     { state: "Colorado", capital: "Denver" },
@@ -121,11 +124,22 @@ options {
     q38: ["", "", "", ""],
     q39: ["", "", "", ""],
     q40: ["", "", "", ""],
-    q1: ["", "", "", ""],
-    
+    q41: ["", "", "", ""],
+    q42: ["", "", "", ""],
+    q43: ["", "", "", ""],
+    q44: ["", "", "", ""],
+    q45: ["", "", "", ""],
+    q46: ["", "", "", ""],
+    q46: ["", "", "", ""],
+    q47: ["", "", "", ""],
+    q48: ["", "", "", ""],
+    q49: ["", "", "", ""],
+    q50: ["", "", "", ""],
+    q51: ["", "", "", ""],
 
 
-}
+};
+
 // let answer = document.querySelector('#capital')
 // answer.innerHTML = "submit"
 
