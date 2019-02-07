@@ -82,7 +82,7 @@ grabAnswer.innerHTML = answer
 console.log(grabAnswer);
 
 
-options {
+options: {
     q1: ["", "", "Montgomery", ""],
     q2: ["", "Juneau", "", ""],
     q3: ["", "", "", "Phoenix"],
@@ -135,9 +135,62 @@ options {
     q49: ["", "", "Madison", ""],
     q50: ["Cheyenne", "", "", ""],
     q51: ["Washington DC", "", "", ""],
-
-
 };
+
+answers: {
+    q1: "Montgomery",
+    q2: "Juneau",
+    q3: "Phoenix",
+    q4: "Little Rock",
+    q5: "Sacramento",
+    q6: "Denver",
+    q7: "Hartford", 
+    q8: "Dover",
+    q9: "Tallahassee",
+    q10: "Atlanta",
+    q11: "Honolulu",
+    q12: "Boise",
+    q13: "Springfield",
+    q14: "Indianapolis",
+    q15: "Des Moines",
+    q16: "Topeka",
+    q17: "Frankfort",
+    q18: "Baton Rouge",
+    q19: "Augusta",
+    q20: "Annapolis",
+    q21: ["", "", "", "Boston"],
+    q22: ["", "Lansing", "", ""],
+    q23: ["", "Saint Paul", "", ""],
+    q24: ["Jackson", "", "", ""],
+    q25: ["", "", "Jefferson City", ""],
+    q26: ["", "Helena", "", ""],
+    q27: ["", "", "", "Lincoln"],
+    q28: ["", "Carson City", "", ""],
+    q29: ["Concord", "", "", ""],
+    q30: ["", "Trenton", "", ""],
+    q31: ["", "", "", "Santa Fe"],
+    q32: ["", "", "Albany", ""],
+    q33: ["Raleigh", "", "", ""],
+    q34: ["", "", "Bismarck", ""],
+    q35: ["Columbus", "", "", ""],
+    q36: ["", "", "Oklahoma City", ""],
+    q37: ["Salem", "", "", ""],
+    q38: ["", "", "Harrisburg", ""],
+    q39: ["", "Providence", "", ""],
+    q40: ["Columbia", "", "", ""],
+    q41: ["", "", "Pierre", ""],
+    q42: ["", "Nashville", "", ""],
+    q43: ["", "Austin", "", ""],
+    q44: ["Salt Lake City", "", "", ""],
+    q45: ["", "", "", "Montpelie"],
+    q46: ["", "", "Richmond", ""],
+    q47: ["", "Olympia", "", ""],
+    q48: ["", "", "", "Charleston"],
+    q49: ["", "", "Madison", ""],
+    q50: ["Cheyenne", "", "", ""],
+    q51: ["Washington DC", "", "", ""],
+};
+
 
 // let answer = document.querySelector('#capital')
 // answer.innerHTML = "submit"
