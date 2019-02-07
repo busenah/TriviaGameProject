@@ -34,7 +34,7 @@ box-sizing: border-box;
 
 }
 
-.answer-input {
+.choices {
 background: wheat;
 text-align: left;
 font-family: sans-serif;
@@ -52,14 +52,6 @@ box-sizing: border-box;
         
 }
 
-.alert-correct {
-padding: 20px;
-background-color: white;
-color: black;
-margin-bottom: 10px;
-}
-
-
   /* courtesy of W3Schools.com */
 .closebtn {
     margin-left: 15px;
@@ -75,10 +67,11 @@ margin-bottom: 10px;
 color: black;
 }
 
-.score {
-    background-color: green;
+  
+.score-box {
+    background-color:wheat;
     border: black;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -86,12 +79,11 @@ color: black;
     font-size: 16px;
   }
 
-  
-.score-box {
-    background-color: green;
+  .alert {
+    background-color: white;
     border: black;
     color: white;
-    padding: 15px 32px;
+    padding: 1px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -103,12 +95,11 @@ color: black;
     background-color: blue;
     border: black;
     color: white;
-    padding: 15px 32px;
+    padding: 1px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    span
   }
 
 
@@ -116,7 +107,7 @@ color: black;
     background-color: blue;
     border: black;
     color: white;
-    padding: 15px 32px;
+    padding: 1px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
