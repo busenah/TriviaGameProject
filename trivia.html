@@ -20,12 +20,13 @@
     <div class="main"></div>
 
         <div class="question">
-            <p id="question">Your Question is: What is the capital of <span id="state">${state}</span>?</p>
+            <p id="question">What is the capital of
+                 <span class="state">$"{state}"</span>?</p>
         </div>
 
         <div class="answer-input">
         
-               <p>Your answer is:</p>  <input type="text" name="fname"><br>
+               <p>Your answer is:</p>  <input id="input-answer" type="text" name="fname"><br>
                 
                 <input type="submit" value="Submit">
               
@@ -33,7 +34,9 @@
         <div class="parent">
             <div class="correct-answer">
                 <p>The capital of ${state} is: ${capital}. </p>
+                <p id="answer">Hey we are testing!</p>
             </div>
+            
             
             <div class="alert-correct">
                 <p>Alert

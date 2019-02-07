@@ -76,8 +76,8 @@ color: black;
 }
 
 .score {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: green;
+    border: black;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -86,9 +86,10 @@ color: black;
     font-size: 16px;
   }
 
+  /*
 .total-score-box {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: green;
+    border: black;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -96,27 +97,29 @@ color: black;
     display: inline-block;
     font-size: 16px;
   }
-
+*/
 
 .back-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: blue;
+    border: black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    span
   }
 
 
 .next-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: blue;
+    border: black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    -ms-grid-row-span: initial;
   }

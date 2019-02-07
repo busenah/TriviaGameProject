@@ -6,16 +6,13 @@ create a container for inputting the capital
 
 */
 
-let question = [0];
-
-let answer = ["state"];
-statesAndTheirCapitals[0].state
+/*let question = statesAndTheirCapitals[0].state
+console.log(question)
 statesAndTheirCapitals[0].capital
+*/
 
 let statesAndTheirCapitals = [
-    { state: "Alabama", capital: "Montgomery" },
-    { state: "Alaska", capital: "Juneau" },
-    { state: "Arizona", capital: "Phoenix" },
+                                                                                                                                                                                                                                                                               
     { state: "Arkansas", capital: "Little Rock" },
     { state: "California", capital: "Sacramento" },
     { state: "Colorado", capital: "Denver" },
@@ -67,12 +64,27 @@ let statesAndTheirCapitals = [
 
 ];
 
-let grabQuestion = document.querySelector('#state')
-grabQuestion.innerHTML = "submit"
+let question = statesAndTheirCapitals[0].state
+console.log(question)
+
+let grabQuestion = document.querySelector('.state')
+grabQuestion.innerHTML = question
 console.log(grabQuestion);
 
-let answer = document.querySelector('#capital')
-answer.innerHTML = "submit"
+let answer = statesAndTheirCapitals[0].capital
+console.log(answer)
+
+let grabAnswer = document.querySelector('#capital')
+grabAnswer.innerHTML = answer
+console.log(grabAnswer);
+
+// let answer = document.querySelector('#capital')
+// answer.innerHTML = "submit"
+
+
+/*if(inputAnswer.value === statesAndTheirCapitals[0].capital){
+    alert('You Got the right answer!')
+}
 console.log(answer);
 
 const button = document.querySelector('.js-button')
@@ -116,8 +128,8 @@ how much you know about the United States of America")
 
 */
 
-button.addEventListener('click', () => {
-    score++
+// button.addEventListener('click', () => {
+    // score++
 
     /*  if (score  {
           score.innerText = score
@@ -126,4 +138,5 @@ button.addEventListener('click', () => {
       
       }
        */
-});
+// });
+ 
