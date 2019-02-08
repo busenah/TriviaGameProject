@@ -29,17 +29,21 @@ box-sizing: border-box;
 background: wheat;
 text-align: left;
 font-family: sans-serif;
+padding: 50px 200px
 border: 1px;
 box-sizing: border-box;
 
 }
 
-.choices {
-background: wheat;
-text-align: left;
-font-family: sans-serif;
-border: 1px;
-box-sizing: border-box;
+.answer-options {
+    background-color:wheat;
+    border: black;
+    color: black;
+    padding: 50px 500px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     
 }
 
