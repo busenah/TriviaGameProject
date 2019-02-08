@@ -1,138 +1,131 @@
 .main {
-background: orange;
-text-align: center;
-border: 1px;
-font-family: sans-serif;
-box-sizing: border-box;
-
+  background: orange;
+  text-align: center;
+  border: 1px;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
-background: orange;
-text-align: center;
-font-family: sans-serif;
-border: 1px;
-box-sizing: border-box;
-    
+  background: orange;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px;
+  box-sizing: border-box;
 }
 
 h3 {
-    background: orange;
-    text-align: center;
-    font-family: sans-serif;
-    border: 1px;
-    box-sizing: border-box;
-        
-    }
+  background: orange;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px;
+  box-sizing: border-box;
+}
 
 body {
-background: orange;
-text-align: center;
-font-family: sans-serif;
-border: 1px;
-box-sizing: border-box;
-
+  /* background: orange; */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Map_of_USA_showing_state_names.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  border: 1px;
+  box-sizing: border-box;
 }
 
 div {
   padding-top: 5px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
 }
 
 .question {
-background: wheat;
-text-align: left;
-font-family: sans-serif;
-margin: 50px;
-padding: 50px 50px
-border: 1px;
-box-sizing: border-box;
-
+  background: white;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 50px;
+  padding: 50px 50px;
+  border: 1px;
+  box-sizing: border-box;
 }
 
 .answer-options {
-    background-color:wheat;
-    border: black;
-    color: black;
-    padding: 50px 50px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
+  background-color: white;
+  border: black;
+  color: black;
+  padding: 50px 50px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .correct-answer {
-background: wheat;
-text-align: left;
-font-family: sans-serif;
-margin: 50px;
-border: 1px;
-box-sizing: border-box;
-        
+  background: wheat;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 50px;
+  border: 1px;
+  box-sizing: border-box;
 }
 
-  /* courtesy of W3Schools.com */
+/* courtesy of W3Schools.com */
 .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: 100;
-    font-size: 22px;
-    line-height: 0ch;
-    cursor: pointer;
-    transition: 0.3s;
+  margin-left: 15px;
+  color: white;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 0ch;
+  cursor: pointer;
+  transition: 0.3s;
 }
-  
+
 .closebtn:hover {
-color: black;
+  color: black;
 }
 
-  
 .score-box {
-    background-color:wheat;
-    border: black;
-    color: black;
-    padding: 15px 32px;
-    margin: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+  background-color: wheat;
+  border: black;
+  color: black;
+  padding: 15px 32px;
+  margin: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
-  .alert {
-    background-color: white;
-    border: black;
-    color: black;
-    padding: 20px 500px;
-    margin: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
+.alert {
+  background-color: white;
+  border: black;
+  color: black;
+  padding: 20px 500px;
+  margin: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 .back-button {
-    background-color: blue;
-    border: black;
-    color: white;
-    padding: 1px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
+  background-color: blue;
+  border: black;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 .next-button {
-    background-color: blue;
-    border: black;
-    color: white;
-    padding: 1px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    -ms-grid-row-span: initial;
-  }
+  background-color: blue;
+  border: black;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -ms-grid-row-span: initial;
+}
