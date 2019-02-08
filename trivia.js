@@ -81,7 +81,7 @@ grabAnswer.innerHTML = answer
 console.log(grabAnswer);
 
 
-options: {
+options = {
     q1: ["Huntsville", "Alexander City", "Montgomery", "Adamsville"],
     q2: ["Anchorage", "Juneau", "Sitka", "Fairbanks"],
     q3: ["Bisbee", "Clifton", "Colorado City", "Phoenix"],
@@ -135,7 +135,7 @@ options: {
 };
 
 
-answers: {
+answers= {
     q1: "Montgomery",
     q2: "Juneau",
     q3: "Phoenix",
