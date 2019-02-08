@@ -188,6 +188,19 @@ answers= {
     q50: "Cheyenne",
 };
 
+for (let q = 1; q < options.length; q++);
+
+
+
+for (let q = 1; q < answers.length; q++);
+
+
+/*
+let create a variable that is "q" + i
+options.variable
+answers.variable
+*/
+
 
 // let answer = document.querySelector('#capital')
 // answer.innerHTML = "submit"
