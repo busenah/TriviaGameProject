@@ -63,7 +63,6 @@ let statesAndTheirCapitals = [
     { state: "West Virginia", capital: "Charleston" },
     { state: "Wisconsin", capital: "Madison" },
     { state: "Wyoming", capital: "Cheyenne" },
-    { state: "District of Columbia", capital: "Washington DC" }
 
 ];
 
@@ -130,10 +129,9 @@ options: {
     q45: ["Burlington", "Middlebury", "Bennington", "Montpelie"],
     q46: ["Roanoke", "Norfolk", "Richmond", "Charlotsville"],
     q47: ["Seattle", "Olympia", "Tacoma", "Spokane"],
-    q48: ["", "Tallahassee", "", "Charleston"],
-    q49: ["", "Montgomery", "Madison", ""],
-    q50: ["Cheyenne", "Lansing", "Bismarck", ""],
-    q51: ["District", "Lincoln", "Lansing", "Washington DC"],
+    q48: ["Huntington", "Beckley", "Fairmont", "Charleston"],
+    q49: ["Milwaukee", "Appleton", "Madison", "Green Bay"],
+    q50: ["Cheyenne", "Lamarie", "Gillette", "Casper"],
 };
 
 
@@ -188,7 +186,6 @@ answers: {
     q48: "Charleston",
     q49: "Madison",
     q50: "Cheyenne",
-    q51: "Washington DC",
 };
 
 
