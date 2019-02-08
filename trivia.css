@@ -1,5 +1,5 @@
 .main {
-background: green;
+background: orange;
 text-align: center;
 border: 1px;
 font-family: sans-serif;
@@ -16,6 +16,15 @@ box-sizing: border-box;
     
 }
 
+h3 {
+    background: orange;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px;
+    box-sizing: border-box;
+        
+    }
+
 body {
 background: orange;
 text-align: center;
@@ -25,11 +34,17 @@ box-sizing: border-box;
 
 }
 
+div {
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
 .question {
 background: wheat;
 text-align: left;
 font-family: sans-serif;
-padding: 50px 200px
+margin: 50px;
+padding: 50px 50px
 border: 1px;
 box-sizing: border-box;
 
@@ -39,7 +54,7 @@ box-sizing: border-box;
     background-color:wheat;
     border: black;
     color: black;
-    padding: 50px 500px;
+    padding: 50px 50px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
@@ -51,6 +66,7 @@ box-sizing: border-box;
 background: wheat;
 text-align: left;
 font-family: sans-serif;
+margin: 50px;
 border: 1px;
 box-sizing: border-box;
         
@@ -77,6 +93,7 @@ color: black;
     border: black;
     color: black;
     padding: 15px 32px;
+    margin: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -86,8 +103,9 @@ color: black;
   .alert {
     background-color: white;
     border: black;
-    color: white;
-    padding: 1px 10px;
+    color: black;
+    padding: 20px 500px;
+    margin: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
