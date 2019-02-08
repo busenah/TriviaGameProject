@@ -201,7 +201,7 @@ document.querySelector(".options").addEventListener("click", function(evt) {
   //       statesAndTheirCapitals[0].capital}`
   //   );
   alert(
-    `Is this the correct answer: ${selection ==
+    `Is this the correct answer: ${selection ===
       statesAndTheirCapitals[questionIndex].capital}`
   );
   questionIndex++;
