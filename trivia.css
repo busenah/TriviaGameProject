@@ -31,19 +31,22 @@ body {
   font-family: sans-serif;
   border: 1px;
   box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }
 
 div {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .question {
   background: white;
   text-align: left;
   font-family: sans-serif;
-  margin: 50px;
-  padding: 50px 50px;
+  margin: 10px;
+  padding: 10px 20px;
   border: 1px;
   box-sizing: border-box;
 }
@@ -52,7 +55,7 @@ div {
   background-color: white;
   border: black;
   color: black;
-  padding: 50px 50px;
+  padding: 10px 10px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
@@ -60,10 +63,10 @@ div {
 }
 
 .correct-answer {
-  background: wheat;
+  background: white;
   text-align: left;
   font-family: sans-serif;
-  margin: 50px;
+  margin: 10px;
   border: 1px;
   box-sizing: border-box;
 }
@@ -88,7 +91,7 @@ div {
   border: black;
   color: black;
   padding: 15px 32px;
-  margin: 50px;
+  margin: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -99,15 +102,15 @@ div {
   background-color: white;
   border: black;
   color: black;
-  padding: 20px 500px;
-  margin: 50px;
+  padding: 10px 300px;
+  margin: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
 
-.back-button {
+/*.back-button {
   background-color: blue;
   border: black;
   color: white;
@@ -129,3 +132,4 @@ div {
   font-size: 16px;
   -ms-grid-row-span: initial;
 }
+*/
