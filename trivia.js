@@ -11,7 +11,7 @@ console.log(question)
 statesAndTheirCapitals[0].capital
 */
 
-let statesAndTheirCapitals = [
+/*let statesAndTheirCapitals = [
   { state: "Alabama", capital: "Montgomery" },
   { state: "Alaska", capital: "Juneau" },
   { state: "Arizona", capital: "Phoenix" },
@@ -73,11 +73,33 @@ let grabQuestion = document.querySelector(".state");
 grabQuestion.innerHTML = question;
 console.log(grabQuestion);
 //options.q1[2]
+
+*/
+
+/*
+
 let options = {
-  q1: ["Huntsville", "Alexander City", "Montgomery", "Adamsville"],
-  q2: ["Anchorage", "Juneau", "Sitka", "Fairbanks"],
-  q3: ["Bisbee", "Clifton", "Colorado City", "Phoenix"],
-  q4: ["Little Rock", "Fort Smith", "North Little Rock", "Fayetteville"],
+  q1: [
+    "Alabama",
+    "Huntsville",
+    "Alexander City",
+    "Montgomery",
+    "Adamsville",
+    3
+  ],
+  q2: ["Alaska", "Anchorage", "Juneau", "Sitka", "Fairbanks", 2],
+
+  q3: ["Arizona", "Bisbee", "Clifton", "Colorado City", "Phoenix", 4],
+
+  q4: [
+    "Arkansas",
+    "Little Rock",
+    "Fort Smith",
+    "North Little Rock",
+    "Fayetteville",
+    1
+  ],
+
   q5: ["Los Angeles", "Sacramento", "Fresno", "San Francisco"],
   q6: ["Colorado Springs", "Leadville", "Georgetown", "Denver"],
   q7: ["Hartford", "New Have", "Stamford", "Greenwich"],
@@ -135,7 +157,43 @@ for (var i = 0; i < options.q1.length; i++) {
   console.log(myOptions);
 }
 
-let answers = {
+*/
+
+//iterate through elements of questionsObj
+//each element can be referred to as "this"
+
+for (i = 0; i < questionsObj.length; i++){
+ let (currentQuestion = questionsObj[i])
+ console.log(currentQuestion[0].state)
+ print currentQuestion[1-4] (the answers)
+ check if the index of the user's answer matches currentQuestion[5]
+}
+
+let questionsObj = {
+q1: ["Alabama","City1","City2","Montgomery","City4",3],
+  q2: ["Alaska", "Anchorage", "Juneau", "Sitka", "Fairbanks", 2],
+
+  q3: ["Arizona", "Bisbee", "Clifton", "Colorado City", "Phoenix", 4],
+
+  q4: [
+    "Arkansas",
+    "Little Rock",
+    "Fort Smith",
+    "North Little Rock",
+    "Fayetteville",
+    1
+  ],
+}
+
+q1[0]
+q[1]q[2]q[3]q[4]
+1
+
+1 === 3
+true -> yay, give points
+false -> nooooooo :(
+
+/*let answers = {
   q1: "Montgomery",
   q2: "Juneau",
   q3: "Phoenix",
