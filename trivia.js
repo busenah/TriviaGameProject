@@ -165,7 +165,7 @@ for (var i = 0; i < options.q1.length; i++) {
 for (i = 0; i < questionsObj.length; i++){
  let (currentQuestion = questionsObj[i])
  console.log(currentQuestion[0].state)
- print currentQuestion[1-4] (the answers)
+ console.log(currentQuestion[1-4])  // (the answers)
  check if the index of the user's answer matches currentQuestion[5]
 }
 
@@ -189,9 +189,14 @@ q1[0]
 q[1]q[2]q[3]q[4]
 1
 
-1 === 3
-true -> yay, give points
-false -> nooooooo :(
+if (1 === 3) {
+  return true 
+  console.log("Huray! You git it");
+} else {
+  return false
+  console.log("Sorry, please try again!")
+}
+
 
 /*let answers = {
   q1: "Montgomery",
