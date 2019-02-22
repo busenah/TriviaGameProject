@@ -166,7 +166,7 @@ for (i = 0; i < questionsObj.length; i++){
  let (currentQuestion = questionsObj[i])
  console.log(currentQuestion[0].state)
  console.log(currentQuestion[1-4])  // (the answers)
- check if the index of the user's answer matches currentQuestion[5]
+//  check if the index of the user's answer matches currentQuestion[5]
 }
 
 let questionsObj = {
@@ -185,8 +185,8 @@ q1: ["Alabama","City1","City2","Montgomery","City4",3],
   ],
 }
 
-q1[0]
-q[1]q[2]q[3]q[4]
+// q1[0];
+// q[1]q[2]q[3]q[4];
 1
 
 if (1 === 3) {
