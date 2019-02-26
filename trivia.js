@@ -1,16 +1,3 @@
-/*  
-create a variable for the the questions
-create a variable for answers
-create a variable for State and their capitals
-create a container for inputting the capital
-
-*/
-
-/*let question = statesAndTheirCapitals[0].state
-console.log(question)
-statesAndTheirCapitals[0].capital
-*/
-
 let statesAndTheirCapitals = [
   { state: "Alabama", capital: "Montgomery", optionsKey: "q1" },
   { state: "Alaska", capital: "Juneau", optionsKey: "q2" },
@@ -136,27 +123,6 @@ for (var i = 0; i < options.q1.length; i++) {
   console.log(myOptions);
 }
 addEventListeners();
-//iterate through elements of questionsArray
-//each element can be referred to as "this"
-
-//for (i = 0; i < questionsArray.length; i++){
-//  let currentQuestion = questionsArray[i]
-//  on page, print currentQuestion[0] (the state)
-//  print currentQuestion[1-4] (the answers)
-//  check if the index of the user's answer matches currentQuestion[5]
-//}
-
-// let questionsArray = {
-// q1: ["Alabama","City1","City2","Montgomery","City4",3]
-//}
-
-//q1[0]
-//q[1]q[2]q[3]q[4]
-//1
-
-//1 === 3
-//true -> yay, give points
-//false -> nooooooo :(
 
 let answers = {
   q1: "Montgomery",
@@ -265,75 +231,3 @@ function nextQuestion(index) {
 
   addEventListeners();
 }
-// grabAnswers.innerHTML = answers
-// console.log("The correct answer is"+ ""+ grabCapital);
-
-// for (let q = 1; q < options.length; q++);
-
-// for (let q = 1; q < answers.length; q++);
-
-/*
-let create a variable that is "q" + i
-options.variable
-answers.variable
-*/
-
-// let answer = document.querySelector('#capital')
-// answer.innerHTML = "submit"
-
-/*if(inputAnswer.value === statesAndTheirCapitals[0].capital){
-    alert('You Got the right answer!')
-}
-console.log(answer);
-
-const button = document.querySelector('.js-button')
-
-submit.addEventListener('click', function () {
-    // score = score + 1
-    alert("You have submitted an answer!")
-})
-
-
-nextQuestion: function() {
-    for (q = 0; q < 51; q++);
-        if 
-}
-
-
-
-/*
-- If answer is correct, display score, and 
-display alert ("Hurray! You got it! Please move to the next question")
-if $("capital")
-
-
-else
-
-add a (zero) 0 score and 
-display alert ("Sorry! Please try again, or move to the next question")
-
-then click to either the back or next button
-
-
-* alert syntax:      alert(" ");
-
-    
-*/
-
-/*
-At the end of the game, console.log("You have done incredibly well. Please see for youself 
-how much you know about the United States of America")
-
-*/
-
-// button.addEventListener('click', () => {
-// score++
-
-/*  if (score  {
-          score.innerText = score
-      } else {
-          declareScore()
-      
-      }
-       */
-// });
