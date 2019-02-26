@@ -11,57 +11,57 @@ console.log(question)
 statesAndTheirCapitals[0].capital
 */
 
-/*let statesAndTheirCapitals = [
-  { state: "Alabama", capital: "Montgomery" },
-  { state: "Alaska", capital: "Juneau" },
-  { state: "Arizona", capital: "Phoenix" },
-  { state: "Arkansas", capital: "Little Rock" },
-  { state: "California", capital: "Sacramento" },
-  { state: "Colorado", capital: "Denver" },
-  { state: "Connecticut", capital: "Hartford" },
-  { state: "Delaware", capital: "Dover" },
-  { state: "Florida", capital: "Tallahassee" },
-  { state: "Georgia", capital: "Atlanta" },
-  { state: "Hawaii", capital: "Honolulu" },
-  { state: "Idaho", capital: "Boise" },
-  { state: "Illinois", capital: "Springfield" },
-  { state: "Indiana", capital: "Indianapolis" },
-  { state: "Iowa", capital: "Des Moines" },
-  { state: "Kansas", capital: "Topeka" },
-  { state: "Kentucky", capital: "Frankfort" },
-  { state: "Louisiana", capital: "Baton Rouge" },
-  { state: "Maine", capital: "Augusta" },
-  { state: "Maryland", capital: "Annapolis" },
-  { state: "Massachusetts", capital: "Boston" },
-  { state: "Michigan", capital: "Lansing" },
-  { state: "Minnesota", capital: "St. Paul" },
-  { state: "Mississippi", capital: "Jackson" },
-  { state: "Missouri", capital: "Jefferson City" },
-  { state: "Montana", capital: "Helena" },
-  { state: "Nebraska", capital: "Lincoln" },
-  { state: "Nevada", capital: "Carson City" },
-  { state: "New Hampshire", capital: "Concord" },
-  { state: "New Jersey", capital: "Trenton" },
-  { state: "New Mexico", capital: "Santa Fe" },
-  { state: "New York", capital: "Albany" },
-  { state: "North Carolina", capital: "Raleigh" },
-  { state: "North Dakota", capital: "Bismarck" },
-  { state: "Ohio", capital: "Columbus" },
-  { state: "Oklahoma", capital: "Oklahoma City" },
-  { state: "Oregon", capital: "Salem" },
-  { state: "Pennsylvania", capital: "Harrisburg" },
-  { state: "Rhode Island", capital: "	Providence" },
-  { state: "South Carolina", capital: "Columbia" },
-  { state: "South Dakota", capital: "Pierre" },
-  { state: "Tennessee", capital: "Nashville" },
-  { state: "Texas", capital: "Austin" },
-  { state: "Utah", capital: "Salt Lake City" },
-  { state: "Vermont", capital: "Montpelier" },
-  { state: "Virginia", capital: "Richmond" },
-  { state: "Washington", capital: "Olympia" },
-  { state: "West Virginia", capital: "Charleston" },
-  { state: "Wisconsin", capital: "Madison" },
-  { state: "Wyoming", capital: "Cheyenne" }
+let statesAndTheirCapitals = [
+  { state: "Alabama", capital: "Montgomery", optionsKey: "q1" },
+  { state: "Alaska", capital: "Juneau", optionsKey: "q2" },
+  { state: "Arizona", capital: "Phoenix", optionsKey: "q3" },
+  { state: "Arkansas", capital: "Little Rock", optionsKey: "q4" },
+  { state: "California", capital: "Sacramento", optionsKey: "q3" },
+  { state: "Colorado", capital: "Denver", optionsKey: "q3" },
+  { state: "Connecticut", capital: "Hartford", optionsKey: "q3" },
+  { state: "Delaware", capital: "Dover", optionsKey: "q3" },
+  { state: "Florida", capital: "Tallahassee", optionsKey: "q3" },
+  { state: "Georgia", capital: "Atlanta", optionsKey: "q3" },
+  { state: "Hawaii", capital: "Honolulu", optionsKey: "q3" },
+  { state: "Idaho", capital: "Boise", optionsKey: "q3" },
+  { state: "Illinois", capital: "Springfield", optionsKey: "q3" },
+  { state: "Indiana", capital: "Indianapolis", optionsKey: "q3" },
+  { state: "Iowa", capital: "Des Moines", optionsKey: "q3" },
+  { state: "Kansas", capital: "Topeka", optionsKey: "q3" },
+  { state: "Kentucky", capital: "Frankfort", optionsKey: "q3" },
+  { state: "Louisiana", capital: "Baton Rouge", optionsKey: "q3" },
+  { state: "Maine", capital: "Augusta", optionsKey: "q3" },
+  { state: "Maryland", capital: "Annapolis", optionsKey: "q3" },
+  { state: "Massachusetts", capital: "Boston", optionsKey: "q3" },
+  { state: "Michigan", capital: "Lansing", optionsKey: "q3" },
+  { state: "Minnesota", capital: "St. Paul", optionsKey: "q3" },
+  { state: "Mississippi", capital: "Jackson", optionsKey: "q3" },
+  { state: "Missouri", capital: "Jefferson City", optionsKey: "q3" },
+  { state: "Montana", capital: "Helena", optionsKey: "q3" },
+  { state: "Nebraska", capital: "Lincoln", optionsKey: "q3" },
+  { state: "Nevada", capital: "Carson City", optionsKey: "q3" },
+  { state: "New Hampshire", capital: "Concord", optionsKey: "q3" },
+  { state: "New Jersey", capital: "Trenton", optionsKey: "q3" },
+  { state: "New Mexico", capital: "Santa Fe", optionsKey: "q3" },
+  { state: "New York", capital: "Albany", optionsKey: "q3" },
+  { state: "North Carolina", capital: "Raleigh", optionsKey: "q3" },
+  { state: "North Dakota", capital: "Bismarck", optionsKey: "q3" },
+  { state: "Ohio", capital: "Columbus", optionsKey: "q3" },
+  { state: "Oklahoma", capital: "Oklahoma City", optionsKey: "q3" },
+  { state: "Oregon", capital: "Salem", optionsKey: "q3" },
+  { state: "Pennsylvania", capital: "Harrisburg", optionsKey: "q3" },
+  { state: "Rhode Island", capital: "	Providence", optionsKey: "q3" },
+  { state: "South Carolina", capital: "Columbia", optionsKey: "q3" },
+  { state: "South Dakota", capital: "Pierre", optionsKey: "q3" },
+  { state: "Tennessee", capital: "Nashville", optionsKey: "q3" },
+  { state: "Texas", capital: "Austin", optionsKey: "q3" },
+  { state: "Utah", capital: "Salt Lake City", optionsKey: "q3" },
+  { state: "Vermont", capital: "Montpelier", optionsKey: "q3" },
+  { state: "Virginia", capital: "Richmond", optionsKey: "q3" },
+  { state: "Washington", capital: "Olympia", optionsKey: "q3" },
+  { state: "West Virginia", capital: "Charleston", optionsKey: "q3" },
+  { state: "Wisconsin", capital: "Madison", optionsKey: "q3" },
+  { state: "Wyoming", capital: "Cheyenne", optionsKey: "q3" }
 ];
 
 let questionIndex = 0;
@@ -73,33 +73,11 @@ let grabQuestion = document.querySelector(".state");
 grabQuestion.innerHTML = question;
 console.log(grabQuestion);
 //options.q1[2]
-
-*/
-
-/*
-
 let options = {
-  q1: [
-    "Alabama",
-    "Huntsville",
-    "Alexander City",
-    "Montgomery",
-    "Adamsville",
-    3
-  ],
-  q2: ["Alaska", "Anchorage", "Juneau", "Sitka", "Fairbanks", 2],
-
-  q3: ["Arizona", "Bisbee", "Clifton", "Colorado City", "Phoenix", 4],
-
-  q4: [
-    "Arkansas",
-    "Little Rock",
-    "Fort Smith",
-    "North Little Rock",
-    "Fayetteville",
-    1
-  ],
-
+  q1: ["Huntsville", "Alexander City", "Montgomery", "Adamsville"],
+  q2: ["Anchorage", "Juneau", "Sitka", "Fairbanks"],
+  q3: ["Bisbee", "Clifton", "Colorado City", "Phoenix"],
+  q4: ["Little Rock", "Fort Smith", "North Little Rock", "Fayetteville"],
   q5: ["Los Angeles", "Sacramento", "Fresno", "San Francisco"],
   q6: ["Colorado Springs", "Leadville", "Georgetown", "Denver"],
   q7: ["Hartford", "New Have", "Stamford", "Greenwich"],
@@ -152,53 +130,35 @@ for (var i = 0; i < options.q1.length; i++) {
   var myOption = document.createElement("div");
   myOption.innerHTML = options.q1[i];
   console.log(myOption);
-  var myOptions = document.querySelector(".options");
+  myOption.classList.add("options");
+  var myOptions = document.querySelector(".answer-options");
   myOptions.appendChild(myOption);
   console.log(myOptions);
 }
-
-*/
-
-//iterate through elements of questionsObj
+addEventListeners();
+//iterate through elements of questionsArray
 //each element can be referred to as "this"
 
-for (i = 0; i < questionsObj.length; i++){
- let (currentQuestion = questionsObj[i])
- console.log(currentQuestion[0].state)
- console.log(currentQuestion[1-4])  // (the answers)
+//for (i = 0; i < questionsArray.length; i++){
+//  let currentQuestion = questionsArray[i]
+//  on page, print currentQuestion[0] (the state)
+//  print currentQuestion[1-4] (the answers)
 //  check if the index of the user's answer matches currentQuestion[5]
-}
+//}
 
-let questionsObj = {
-q1: ["Alabama","City1","City2","Montgomery","City4",3],
-  q2: ["Alaska", "Anchorage", "Juneau", "Sitka", "Fairbanks", 2],
+// let questionsArray = {
+// q1: ["Alabama","City1","City2","Montgomery","City4",3]
+//}
 
-  q3: ["Arizona", "Bisbee", "Clifton", "Colorado City", "Phoenix", 4],
+//q1[0]
+//q[1]q[2]q[3]q[4]
+//1
 
-  q4: [
-    "Arkansas",
-    "Little Rock",
-    "Fort Smith",
-    "North Little Rock",
-    "Fayetteville",
-    1
-  ],
-}
+//1 === 3
+//true -> yay, give points
+//false -> nooooooo :(
 
-// q1[0];
-// q[1]q[2]q[3]q[4];
-1
-
-if (1 === 3) {
-  return true 
-  console.log("Huray! You git it");
-} else {
-  return false
-  console.log("Sorry, please try again!")
-}
-
-
-/*let answers = {
+let answers = {
   q1: "Montgomery",
   q2: "Juneau",
   q3: "Phoenix",
@@ -256,19 +216,55 @@ console.log(answers);
 
 let grabAnswers = document.querySelector(".capital");
 
-document.querySelector(".options").addEventListener("click", function(evt) {
-  const selection = evt.target.innerText;
-  //   console.log(selection);
-  //   console.log(
-  //     `Is this the correct answer: ${selection ===
-  //       statesAndTheirCapitals[0].capital}`
-  //   );
-  alert(
-    `Is this the correct answer: ${selection ===
-      statesAndTheirCapitals[questionIndex].capital}`
-  );
-  questionIndex++;
-});
+function addEventListeners() {
+  document.querySelectorAll(".options").forEach(option => {
+    option.addEventListener("click", function(evt) {
+      const selection = evt.target.innerText;
+      //   console.log(selection);
+      //   console.log(
+      //     `Is this the correct answer: ${selection ===
+      //       statesAndTheirCapitals[0].capital}`
+      //   );
+      console.log(statesAndTheirCapitals[questionIndex].capital);
+      alert(
+        `Is this the correct answer: ${selection ===
+          statesAndTheirCapitals[questionIndex].capital}`
+      );
+      if (selection === statesAndTheirCapitals[questionIndex].capital) {
+        //grabs next question's index of questions array
+        questionIndex++;
+
+        //change question and answer options in application
+        nextQuestion(questionIndex);
+      }
+    });
+  });
+}
+
+function nextQuestion(index) {
+  // Changes State Name in question
+  let stateName = statesAndTheirCapitals[index].state;
+  console.log(stateName);
+
+  let grabQuestion = document.querySelector(".state");
+  grabQuestion.innerHTML = stateName;
+
+  // Clear Potential Captial Options
+  document.querySelector(".answer-options").innerHTML = "";
+  // Change State Capital Options
+  let optionsKey = statesAndTheirCapitals[index].optionsKey;
+  for (var i = 0; i < options[optionsKey].length; i++) {
+    var myOption = document.createElement("div");
+    myOption.innerHTML = options[optionsKey][i];
+    myOption.classList.add("options");
+    console.log(myOption);
+    var myOptions = document.querySelector(".answer-options");
+    myOptions.appendChild(myOption);
+    console.log(myOptions);
+  }
+
+  addEventListeners();
+}
 // grabAnswers.innerHTML = answers
 // console.log("The correct answer is"+ ""+ grabCapital);
 
