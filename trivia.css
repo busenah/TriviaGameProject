@@ -1,5 +1,4 @@
 .main {
-  background: orange;
   text-align: center;
   border: 1px;
   font-family: sans-serif;
@@ -12,6 +11,7 @@ h1 {
   font-family: sans-serif;
   border: 1px;
   box-sizing: border-box;
+  width: 50%;
 }
 
 h3 {
@@ -20,6 +20,7 @@ h3 {
   font-family: sans-serif;
   border: 1px;
   box-sizing: border-box;
+  width: 20%;
 }
 
 body {
@@ -43,12 +44,13 @@ div {
 
 .question {
   background: white;
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
   margin: 10px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: 1px;
   box-sizing: border-box;
+  width: 25%;
 }
 
 .answer-options {
@@ -56,10 +58,10 @@ div {
   border: black;
   color: black;
   padding: 10px 10px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
+  width: 20%;
 }
 
 .correct-answer {
